@@ -125,3 +125,34 @@ body {
 }
 
 
+.gambar {
+  background-image: url(asset/Tips_Menggambar_Digital_2.jpg);
+  background-position: center;
+}
+
+.gambar2 {
+  background-image: url(asset/MK6Bo60aLI7Exc4JtzwMayQvChBoTx6ckOzwpq8U.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+.visit {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically if needed */
+    height: 30vh;           /* Full screen height (optional) */
+  }
+
+
+
+  .visit-content {
+    display: flex;
+    align-items: center;     /* Align items in a row center */
+    gap: 10px;               /* Space between text and image */
+  }
+
+  .visit-content h1 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
